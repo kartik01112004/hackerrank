@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Recommendations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Recommended Color Palettes</h1>
+      <div class="color-palettes">
+        <div id="palette-1" class="palette">
+          <div class="color-block color1"></div>
+          <div class="color-block color2"></div>
+          <div class="color-block color3"></div>
+        </div>
+        <div id="palette-2" class="palette">
+          <div class="color-block color4"></div>
+          <div class="color-block color5"></div>
+          <div class="color-block color6"></div>
+        </div>
+        <div id="palette-3" class="palette">
+          <div class="color-block color7"></div>
+          <div class="color-block color8"></div>
+          <div class="color-block color9"></div>
+        </div>
+        <div id="palette-4" class="palette">
+          <div class="color-block color10"></div>
+          <div class="color-block color11"></div>
+          <div class="color-block color12"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li class="active" data-category="clothing">Clothing</li>
+          <li data-category="accessories">Accessories</li>
+          <li data-category="footwear">Footwear</li>
+          <li data-category="jewellery">Jewellery</li>
+        </ul>
+      </nav>
+      <div id="recommendations" class="recommendations"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
